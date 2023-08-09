@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shree Hospital</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.dropdown {
+                    float: left;
+                    overflow: hidden;
+                  }
+                  
+                  .dropdown .dropbtn {
+                    font-size: 16px;  
+                    border: none;
+                    outline: none;
+                    background-color: inherit;
+                    font-family: inherit;
+                  }
+                  
+                  .navbar a:hover, .dropdown:hover .dropbtn {
+                    background-color: red;
+                  }
+                  
+                  .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 1;
+                  }
+                  
+                  .dropdown-content a {
+                    float: left;
+                    color: black;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                  }
+                  
+                  .dropdown-content a:hover {
+                    background-color: #ddd;
+                  }
+                  
+                  .dropdown:hover .dropdown-content {
+                    display: block;
+                  }
+                  
+                  
+                  .MENU{
+                  margin-left: 8px;
+                  margin-top: 14px;
+                  float: left;
+                  }
+                  .menu {
+                    width: 35px;
+                    height: 5px;
+                    background-color: black;
+                    margin: 6px 0;
+                  }
+                  
+                  .navbar {
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    width: 100%;
+                    background-color: white;
+                    overflow: auto;
+                    height: 80px;
+                  }
+                  .s{
+                  position: relative;
+                  margin-top: 9px;
+                  left: 600px;
+                  }
+                  .c{
+                  margin-top: 9px;
+                  position: relative;
+                  left: 600px;
+                  }
+                  .l{
+                    margin-top: 9px;
+                    position: relative;
+                    left: 280px;
+                  }
+                  .f{
+                    margin-top: 9px; 
+                    position: relative;
+                  left: 500px;
+                  }
+                  .a{
+                    margin-top: 9px;
+                  position: relative;
+                  left: -60px;
+                  }
+                  .g{
+                    margin-top: 9px;
+                  position: relative;
+                  left: -290px;
+                  }
+                  .navbar a {
+                    float: left;
+                    padding: 12px;
+                    color: solid black;
+                    text-decoration: none;
+                    font-size: 20px;
+                    height: 30px;
+                  }
+                  
+                  .navbar a:hover {
+                    background-color: skyblue;
+                  }
+                  
+                  .active {
+                    background-color: skyblue;
+                  }
+                  
+                  @media screen and (max-width: 500px) {
+                    .navbar a {
+                      float: none;
+                      display: block;
+                    }
+                  }
+.con3{
+  height: 400px;
+}
+  h1{
+    margin: 40px 40px 0 ;
+    border: 1px #3185c1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3185c1;
+  }
+.doc1{
+  border: 1px solid black;
+  margin-left: 90px;
+  border-radius: 15px;
+  float: left;
+  height: 150px;
+  width: 300px;
+}
+.doc2{
+  margin-left: 30px;
+  float: left;
+  height: 300px;
+  width: 300px;
+}
+.doc3{
+  margin-left: 30px;
+  float: left;
+  height: 300px;
+  width: 300px;
+}
+.background-image{
+background-image: url(h1.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 10px;
+width: 100%;
+height: 1500px;
+}
+.logo{
+  background-image: url(l.jpg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 5px;
+  border: 1px solid white;
+  margin-top: 9px;
+  float: left;
+  height: 55px;
+  width: 300px;
+}
+.icons{
+  border: 1px solid white;
+  height: 15px;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+
+<!--menu icon code-->
+<div class="navbar1" >
+<div class="dropdown">
+<div class="MENU">                      
+<div class="menu"></div>
+<div class="menu"></div>
+<div class="menu"></div>
+  <div class="dropdown-content">
+    <li>
+    <ul><a href="title.html"><i class="fa fa-fw fa-home"></i> Home</a></ul>
+    <ul><a href="doc.html"><i class="fa fa-user-md"></i>Doctors</a></ul>
+    <ul><a href="#">Link 3</a></ul>
+    <ul><a href="#">Link 4</a></ul>
+   </li>
+  </div>
+</div>
+</div> 
+</div>
+<!--end of menu icon code-->
+<div class="logo">
+</div>
+<div class="icons">
+  <a class="s" href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a class="c" href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a class="l" href="/xampp/htdocs/php_prg/login.php"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a class="f" href="#"><i class="fa fa-comments-o"></i> FeedBack</a>
+  <a class="a" href="#"><i class="fa fa-address-book"></i> About us</a>
+  <a class="g" href="gallery.html"><i class="fa fa-picture-o"></i> Gallery</a>
+</div>
+</div>
+<div class="background-image"
+style="max-width: 100%;height: 90vh;">
+</div>
+
+<div class="con2">
+<div class="doc1">
+<h1>24/7 SERIVICES AVAILABLE</h1>
+</div>
+<div class="doc1">
+<h1>PREMIUM FACILITIES</h1>
+</div>
+<div class="doc1">
+<h1>SPECIALIST DOCTORS</h1>
+</div>
+</div>
+<div class="con3">
+  
+</div>
+</body>
+</html> 
